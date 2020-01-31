@@ -71,7 +71,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize pip python brew osx common-aliases docker mvn ng npm kubectl)
+plugins=(git colorize pip python brew osx common-aliases docker docker-compose mvn ng npm kubectl ssh-agent helm colored-man-pages)
 
 autoload -U compinit && compinit
 
